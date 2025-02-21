@@ -12,10 +12,17 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import {defineConfig} from 'vite'
+import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  server: {port: 8000}
+  server: { port: 8000 },
+  css: {
+    preprocessorOptions: {
+      sass: {
+        implementation: 'sass'
+      }
+    }
+  }
 })
