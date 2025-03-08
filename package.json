@@ -1,0 +1,15 @@
+{
+  "name": "spatial",
+  "version": "1.0.0",
+  "description": "This repository contains the source code for Google AI Studio's [starter apps](https://aistudio.google.com/app/starter-apps) — a collection of small apps that demonstrate how Gemini can be used to create interactive experiences. These apps are built to run inside AI Studio, but the versions included here can run standalone using the [Gemini API](https://ai.google.dev/gemini-api/docs).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^6.2.1"
+  }
+}
